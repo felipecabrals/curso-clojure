@@ -1,0 +1,201 @@
+2017-11-10 11:12:19,438 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 11:13:43,261 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 11:13:44,108 [main] INFO  migratus.core - Starting migrations 
+2017-11-10 11:13:44,510 [main] INFO  migratus.database - creating migration table 'schema_migrations' 
+2017-11-10 11:13:44,573 [main] DEBUG migratus.migrations - Looking for migrations in in  #object[java.io.File 0x6aa09c35 C:\Users\henrique.DATTASYSTEM.000\Desktop\outro_teste\app\resources\migrations] 
+2017-11-10 11:13:44,599 [main] INFO  migratus.core - Running up for [20171110111014 20171110111220] 
+2017-11-10 11:13:44,600 [main] INFO  migratus.core - Up 20171110111014-add-users-table 
+2017-11-10 11:13:44,629 [main] DEBUG migratus.migration.sql - found 1 up migrations 
+2017-11-10 11:13:44,635 [main] DEBUG migratus.database - marking 20171110111014 complete 
+2017-11-10 11:13:44,647 [main] INFO  migratus.core - Up 20171110111220-add-pessoas-table 
+2017-11-10 11:13:44,649 [main] DEBUG migratus.migration.sql - found 1 up migrations 
+2017-11-10 11:13:44,682 [main] DEBUG migratus.database - marking 20171110111220 complete 
+2017-11-10 11:13:44,686 [main] INFO  migratus.core - Ending migrations 
+2017-11-10 11:17:29,893 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 11:17:50,426 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 11:17:52,821 [main] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 11:17:53,056 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-11-10 11:17:53,161 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@1cfa4ad9 
+2017-11-10 11:17:53,182 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-11-10 11:17:55,719 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2017-11-10 11:17:55,824 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-11-10 11:17:55,828 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-11-10 11:17:55,892 [main] INFO  app.core - #'app.config/env started 
+2017-11-10 11:17:55,893 [main] INFO  app.core - #'app.handler/init-app started 
+2017-11-10 11:17:55,893 [main] INFO  app.core - #'app.core/http-server started 
+2017-11-10 11:17:55,894 [main] INFO  app.core - #'app.core/repl-server started 
+2017-11-10 11:19:47,415 [XNIO-1 task-4] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 11:19:47,417 [XNIO-1 task-4] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 11:30:21,548 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 11:30:22,912 [main] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 11:30:23,168 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-11-10 11:30:23,306 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@3c176ee 
+2017-11-10 11:30:23,343 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-11-10 11:30:23,900 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2017-11-10 11:30:23,967 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-11-10 11:30:23,970 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-11-10 11:30:24,003 [main] INFO  app.core - #'app.config/env started 
+2017-11-10 11:30:24,004 [main] INFO  app.core - #'app.db.core/*db* started 
+2017-11-10 11:30:24,004 [main] INFO  app.core - #'app.handler/init-app started 
+2017-11-10 11:30:24,004 [main] INFO  app.core - #'app.core/http-server started 
+2017-11-10 11:30:24,005 [main] INFO  app.core - #'app.core/repl-server started 
+2017-11-10 11:32:57,628 [XNIO-1 task-8] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 11:32:57,631 [XNIO-1 task-8] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 11:35:53,603 [XNIO-1 task-11] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 11:35:53,604 [XNIO-1 task-11] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 11:43:24,712 [XNIO-1 task-22] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 11:43:24,713 [XNIO-1 task-22] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 11:47:27,311 [XNIO-1 task-31] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 11:47:27,312 [XNIO-1 task-31] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 11:55:20,033 [XNIO-1 task-5] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 11:55:20,034 [XNIO-1 task-5] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 11:58:02,894 [XNIO-1 task-10] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 11:58:02,895 [XNIO-1 task-10] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 11:59:02,051 [XNIO-1 task-14] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 11:59:02,052 [XNIO-1 task-14] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 12:07:49,545 [XNIO-1 task-29] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 12:07:49,546 [XNIO-1 task-29] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 12:08:27,303 [XNIO-1 task-1] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 12:08:27,304 [XNIO-1 task-1] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 12:13:55,285 [XNIO-1 task-4] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 12:13:55,286 [XNIO-1 task-4] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 12:18:25,652 [XNIO-1 task-19] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 12:18:25,653 [XNIO-1 task-19] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 12:26:31,573 [XNIO-1 task-1] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 12:26:31,573 [XNIO-1 task-1] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 12:27:41,850 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 12:27:43,045 [main] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 12:27:43,267 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-11-10 12:27:43,387 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@2e145f7b 
+2017-11-10 12:27:43,406 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-11-10 12:27:43,808 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2017-11-10 12:27:43,868 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-11-10 12:27:43,872 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-11-10 12:27:43,942 [main] INFO  app.core - #'app.config/env started 
+2017-11-10 12:27:43,943 [main] INFO  app.core - #'app.db.core/*db* started 
+2017-11-10 12:27:43,944 [main] INFO  app.core - #'app.handler/init-app started 
+2017-11-10 12:27:43,946 [main] INFO  app.core - #'app.core/http-server started 
+2017-11-10 12:27:43,946 [main] INFO  app.core - #'app.core/repl-server started 
+2017-11-10 12:28:57,109 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 12:28:58,136 [main] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 12:28:58,375 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-11-10 12:28:58,475 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@28a4d87f 
+2017-11-10 12:28:58,495 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-11-10 12:28:58,916 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2017-11-10 12:28:58,989 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-11-10 12:28:58,993 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-11-10 12:28:59,024 [main] INFO  app.core - #'app.config/env started 
+2017-11-10 12:28:59,025 [main] INFO  app.core - #'app.db.core/*db* started 
+2017-11-10 12:28:59,026 [main] INFO  app.core - #'app.handler/init-app started 
+2017-11-10 12:28:59,027 [main] INFO  app.core - #'app.core/http-server started 
+2017-11-10 12:28:59,028 [main] INFO  app.core - #'app.core/repl-server started 
+2017-11-10 14:13:07,131 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 14:13:08,265 [main] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 14:13:08,474 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-11-10 14:13:08,672 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@31caf651 
+2017-11-10 14:13:08,694 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-11-10 14:13:09,151 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2017-11-10 14:13:09,227 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-11-10 14:13:09,230 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-11-10 14:13:09,263 [main] INFO  app.core - #'app.config/env started 
+2017-11-10 14:13:09,264 [main] INFO  app.core - #'app.db.core/*db* started 
+2017-11-10 14:13:09,264 [main] INFO  app.core - #'app.handler/init-app started 
+2017-11-10 14:13:09,265 [main] INFO  app.core - #'app.core/http-server started 
+2017-11-10 14:13:09,267 [main] INFO  app.core - #'app.core/repl-server started 
+2017-11-10 14:16:29,208 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 14:16:30,216 [main] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 14:16:30,414 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-11-10 14:16:30,544 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@28a4d87f 
+2017-11-10 14:16:30,589 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-11-10 14:16:31,010 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2017-11-10 14:16:31,067 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-11-10 14:16:31,070 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-11-10 14:16:31,103 [main] INFO  app.core - #'app.config/env started 
+2017-11-10 14:16:31,103 [main] INFO  app.core - #'app.db.core/*db* started 
+2017-11-10 14:16:31,104 [main] INFO  app.core - #'app.handler/init-app started 
+2017-11-10 14:16:31,104 [main] INFO  app.core - #'app.core/http-server started 
+2017-11-10 14:16:31,104 [main] INFO  app.core - #'app.core/repl-server started 
+2017-11-10 14:25:28,022 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 14:25:29,016 [main] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 14:25:29,215 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-11-10 14:25:29,311 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@31caf651 
+2017-11-10 14:25:29,331 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-11-10 14:25:29,705 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2017-11-10 14:25:29,765 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-11-10 14:25:29,768 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-11-10 14:25:29,801 [main] INFO  app.core - #'app.config/env started 
+2017-11-10 14:25:29,801 [main] INFO  app.core - #'app.db.core/*db* started 
+2017-11-10 14:25:29,801 [main] INFO  app.core - #'app.handler/init-app started 
+2017-11-10 14:25:29,801 [main] INFO  app.core - #'app.core/http-server started 
+2017-11-10 14:25:29,802 [main] INFO  app.core - #'app.core/repl-server started 
+2017-11-10 14:28:54,600 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 14:51:24,401 [XNIO-1 task-28] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 14:51:24,424 [XNIO-1 task-28] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 15:23:10,170 [XNIO-1 task-17] INFO  app.env - 
+-=[app has shut down successfully]=- 
+2017-11-10 15:23:10,173 [XNIO-1 task-17] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 15:53:34,817 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 15:54:00,574 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 15:54:02,620 [main] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 15:54:02,967 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-11-10 15:54:03,063 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@651eefb3 
+2017-11-10 15:54:03,084 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-11-10 15:54:03,588 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2017-11-10 15:54:03,656 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-11-10 15:54:03,660 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-11-10 15:54:03,694 [main] INFO  app.core - #'app.config/env started 
+2017-11-10 15:54:03,694 [main] INFO  app.core - #'app.db.core/*db* started 
+2017-11-10 15:54:03,694 [main] INFO  app.core - #'app.handler/init-app started 
+2017-11-10 15:54:03,694 [main] INFO  app.core - #'app.core/http-server started 
+2017-11-10 15:54:03,695 [main] INFO  app.core - #'app.core/repl-server started 
+2017-11-10 16:04:07,635 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-10 16:04:08,832 [main] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-10 16:04:09,030 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-11-10 16:04:09,157 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@651eefb3 
+2017-11-10 16:04:09,177 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-11-10 16:04:09,596 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2017-11-10 16:04:09,659 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-11-10 16:04:09,662 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-11-10 16:04:09,704 [main] INFO  app.core - #'app.config/env started 
+2017-11-10 16:04:09,704 [main] INFO  app.core - #'app.db.core/*db* started 
+2017-11-10 16:04:09,705 [main] INFO  app.core - #'app.handler/init-app started 
+2017-11-10 16:04:09,706 [main] INFO  app.core - #'app.core/http-server started 
+2017-11-10 16:04:09,706 [main] INFO  app.core - #'app.core/repl-server started 

@@ -1,0 +1,92 @@
+{% extends "base.html" %} {% block content %}
+<div class="row">
+    <div class="col-md-12 mt-2">
+        <form {% if pessoa.pes_codigo %} action="/pessoa_put" {% else %} action="/pessoa_set" {% endif %} method="POST">
+            <input name="pes_codigo" type="hidden" value="{{pessoa.pes_codigo}}" /> {% csrf-field %} {% if pessoa.pes_codigo
+            %}
+            <h3>Alterar Pessoa</h3>
+            {% else %}
+            <h3>Cadastro de Pessoa</h3>
+            {% endif %}
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" name="pes_nome" required maxlength="200" value="{{pessoa.pes_nome}}" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <label>Endereço</label>
+                        <input type="text" name="pes_endereco" maxlength="255" value="{{pessoa.pes_endereco}}" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label>Número</label>
+                        <input type="text" name="pes_numero" maxlength="30" value="{{pessoa.pes_numero}}" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Bairro</label>
+                        <input type="text" name="pes_bairro" maxlength="50" value="{{pessoa.pes_bairro}}" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label>Complemento</label>
+                        <input type="text" name="pes_complemento" maxlength="60" value="{{pessoa.pes_complemento}}" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label>CEP</label>
+                        <input type="text" name="pes_cep" maxlength="8" value="{{pessoa.pes_cep}}" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label>Telefone</label>
+                        <input type="text" name="pes_telefone" maxlength="10" value="{{pessoa.pes_telefone}}" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label>Celular</label>
+                        <input type="text" name="pes_celular" maxlength="11" value="{{pessoa.pes_celular}}" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label>Observação</label>
+                    <textarea class="form-control" name="pes_obs" maxlength="500" rows="3">{{pessoa.pes_obs}}</textarea>
+                </div>
+            </div>
+            {% if pessoa.pes_codigo %}
+            <button type="submit" class="btn btn-success">Alterar</button>
+            <button type="button" onclick="excluir_pessoa({{pessoa.pes_codigo}})" class="btn btn-danger">Excluir</button> 
+            {% else %}
+            <button type="submit" class="btn btn-primary">Incluir</button> {% endif %}
+        </form>
+    </div>
+</div>
+{% endblock %} 
+{% block page-scripts %} 
+    {% if pessoa.pes_codigo %}
+<script>
+    function excluir_pessoa(pes_codigo) {
+        var resposta = confirm("Deseja realmente excluir?");
+        if (resposta == true) {
+            window.location.href = "/pessoa_del/" + pes_codigo;
+        }
+    }
+</script>
+    {% endif %} 
+{% endblock %}

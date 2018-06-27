@@ -1,0 +1,14 @@
+{% extends "base.html" %} 
+{% block content %}
+<div class="row">
+    <div class="col-md-12 mt-2">
+        <h2>Lista de Pessoas</h2>
+        <hr>
+        <ul class="list-group">
+          {% for p in pessoas %}
+            <a href="/pessoa/{{p.pes_codigo}}" class="list-group-item list-group-item-action"> {{p.pes_nome}}</a>
+          {% endfor %}
+        </ul>
+      </div>
+</div>
+{% endblock %}

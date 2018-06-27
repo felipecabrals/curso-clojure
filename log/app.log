@@ -1,0 +1,28 @@
+2017-11-11 10:42:36,720 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-11 10:42:37,641 [main] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-11 10:42:37,809 [main] INFO  luminus.http-server - starting HTTP server on port 8000 
+2017-11-11 10:42:37,903 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@5324647 
+2017-11-11 10:42:37,926 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-11-11 10:42:38,398 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 8000 
+2017-11-11 10:42:38,452 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-11-11 10:42:38,455 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-11-11 10:42:38,481 [main] INFO  app.core - #'app.config/env started 
+2017-11-11 10:42:38,481 [main] INFO  app.core - #'app.db.core/*db* started 
+2017-11-11 10:42:38,481 [main] INFO  app.core - #'app.handler/init-app started 
+2017-11-11 10:42:38,481 [main] INFO  app.core - #'app.core/http-server started 
+2017-11-11 10:42:38,482 [main] INFO  app.core - #'app.core/repl-server started 
+2017-11-11 16:33:34,990 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-11-11 16:33:35,987 [main] INFO  app.env - 
+-=[app started successfully using the development profile]=- 
+2017-11-11 16:33:36,166 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-11-11 16:33:36,262 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@32f3174d 
+2017-11-11 16:33:36,282 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-11-11 16:33:36,762 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2017-11-11 16:33:36,841 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-11-11 16:33:36,845 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-11-11 16:33:36,870 [main] INFO  app.core - #'app.config/env started 
+2017-11-11 16:33:36,870 [main] INFO  app.core - #'app.db.core/*db* started 
+2017-11-11 16:33:36,870 [main] INFO  app.core - #'app.handler/init-app started 
+2017-11-11 16:33:36,870 [main] INFO  app.core - #'app.core/http-server started 
+2017-11-11 16:33:36,870 [main] INFO  app.core - #'app.core/repl-server started 
