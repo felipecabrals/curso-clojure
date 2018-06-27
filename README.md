@@ -12,4 +12,13 @@ Também elaborei o design do site do [FlashClip][1] que em breve será disponibi
 
 [2]: https://www.behance.net/felipedias_c
 
+## Pré-requisitos
 
+Você precisará do [Leiningen][1] 2.0 ou superior instalado.
+
+[1]: https://github.com/technomancy/leiningen
+
+## Execução
+
+Para iniciar um servidor da web para o aplicativo, execute: 
+    lein run
